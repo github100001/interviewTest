@@ -1,0 +1,2 @@
+create table t_account(id bigint primary key auto_increment,user_name varchar(255),balance double);
+create table t_account_amount_change_list(id bigint primary key auto_increment,type varchar(255),money double);
